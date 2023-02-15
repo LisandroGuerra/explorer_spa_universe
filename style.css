@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: cadetblue;
+    background-image: image('assets/mountains-universe-1.svg');
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+nav {
+    margin: 3.2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;    
+}
+
+a {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: regular;
+    text-decoration: none;
+}
+
+a.active {
+    font-weight: bold;
+}
