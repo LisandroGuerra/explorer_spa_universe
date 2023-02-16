@@ -10,6 +10,8 @@ export class Router {
       event.preventDefault()
   
       window.history.pushState({}, "", event.target.href)
+      const page = window.history.pushState({}, "", event.target.href)
+      console.log(page)
   
       this.handle()
     }
