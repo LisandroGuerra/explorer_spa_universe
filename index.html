@@ -17,12 +17,17 @@
 </head>
 <body>
     <nav>
-        <a href="/" onclick="route()">
-            <img src="assets/logo.svg" alt="logo like a vortex">
-        </a>
-        <a href="/" onclick="route()" class="active">Home</a>
-        <a href="/universe" onclick="route()">The Universe</a>
-        <a href="/exploration" onclick="route()">Exploration</a>
+        <div class="logo">
+            <a href="/">
+                <img src="assets/logo.svg" alt="logo like a vortex">
+            </a>
+        </div>
+        <div class="links">
+            <a href="/" onclick="route()" id="home">Home</a>
+            <a href="/universe" onclick="route()" id="universe">The Universe</a>
+            <a href="/exploration" onclick="route()" id="exploration">Exploration</a>
+        </div>
+        
     </nav>
     
     <div id="app"></div>

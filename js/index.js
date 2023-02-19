@@ -13,8 +13,3 @@ router.handle()
 window.onpopstate = () => router.handle()
 window.route = () => router.route()
 
-
-// document.body.style.backgroundImage = "url('assets/mountains-universe-1.svg')"
-// document.body.style.backgroundImage = "url('assets/mountains-universe-2.svg')"
-// document.body.style.backgroundImage = "url('assets/mountains-universe-3.svg')"
-// document.body.style.backgroundImage = "url('assets/mountains-universe-4.svg')"
